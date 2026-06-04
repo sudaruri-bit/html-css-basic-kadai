@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+html {
+  font-size: 20px;
+}
+
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  /* ルート要素の2倍（htmlが20pxの場合、40px） */
+
+  font-family: sans-serif;/* 総称フォント */
+  letter-spacing: 1.2em;/* 文字間を文字の大きさの1.2倍 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);/* 影を付与 */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下に3pxの実線 */    
+
+}
+
+#basic p {
+  font-weight: bold;
+}
